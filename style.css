@@ -71,6 +71,11 @@ img { max-width: 100%; height: auto; }
 .plate.coming .status { color: var(--faint); }
 .plate .body { grid-column: 2; }
 
+/* About */
+.studio { padding-block: 24px 40px; }
+.studio .intro { font-family: var(--serif); font-size: clamp(22px, 3vw, 28px); line-height: 1.3; max-width: 32em; font-variation-settings: "opsz" 48; }
+.studio .soft { color: var(--soft); margin-top: 14px; max-width: var(--measure); }
+
 /* Contact */
 .contact { padding-block: 24px 72px; }
 .contact .big { font-family: var(--serif); font-size: clamp(26px, 4vw, 38px); line-height: 1.2; font-variation-settings: "opsz" 72; margin-top: 4px; }
